@@ -1,3 +1,3 @@
-# antoniopelusi.github.io
+# cv
 
-Responsive Dev Portfolio made in pure HTML, CSS & JS
+Responsive CV template made in pure HTML, CSS & JS
