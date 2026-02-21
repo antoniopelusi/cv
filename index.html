@@ -36,6 +36,13 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/main.css" />
+        <noscript>
+            <style>
+                #print {
+                    visibility: hidden;
+                }
+            </style>
+        </noscript>
     </head>
     <body>
         <main role="main">
@@ -45,7 +52,11 @@
                         <button type="button">Go back</button>
                     </a>
                     <a>
-                        <button type="button" onclick="window.print()">
+                        <button
+                            id="print"
+                            type="button"
+                            onclick="window.print()"
+                        >
                             Print this CV
                         </button>
                     </a>
